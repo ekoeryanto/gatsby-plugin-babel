@@ -1,0 +1,28 @@
+{
+  "name": "gatsby-plugin-babel",
+  "version": "1.0.0",
+  "description": "Simple Gatsby plugin that helps extend the .babelrc",
+  "main": "gatsby-node.js",
+  "respository": {
+    "type": "git",
+    "url": "git+https://github.com/ekoeryanto/gatsby-plugin-babel.git"
+  },
+  "keywords": [
+    "gatsbyjs",
+    "gatsby-plugin",
+    "babel"
+  ],
+  "author": "Eko Eryanto <ekoeryanto@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "readme": "README.md",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "babel -w src --out-dir ."
+  },
+  "dependencies": {}
+}
